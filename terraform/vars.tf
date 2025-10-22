@@ -5,5 +5,5 @@ variable "domain_name_label" {
 
 variable "vm_size" {
     type    = string
-    default = "Standard_E2s_v3"
+    default = "Standard_E2s_v25"
 }

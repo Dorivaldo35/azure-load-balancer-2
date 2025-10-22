@@ -7,7 +7,7 @@ terraform {
   }
   backend "azurerm" {
     resource_group_name  = "rg-lbtf"
-    storage_account_name = "lbtfkb001"
+    storage_account_name = "lbtfazterraform1"
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
   }
